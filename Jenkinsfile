@@ -13,6 +13,10 @@ pipeline {
       steps {
         script {
           echo'calling tool'
+
+          sh"""
+                curl http://localhost:8080/job/Devops/job/CURL
+            """
         }
       }
     }
