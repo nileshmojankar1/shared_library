@@ -1,0 +1,9 @@
+1) GET
+2) POST
+3) UPDATE
+4) DELETE
+5) Header
+6)Authentication
+
+1.ii) POST : it used to for sendind data with header type and authenticated
+
