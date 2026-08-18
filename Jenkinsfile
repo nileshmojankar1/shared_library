@@ -12,6 +12,7 @@ pipeline {
     stage ('curl'){
       steps {
         script {
+          echo'calling tool'
         }
       }
     }
