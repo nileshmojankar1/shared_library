@@ -15,7 +15,7 @@ pipeline {
           echo'calling tool'
 
           sh"""
-                curl http://localhost:8080/job/Devops/job/CURL
+          curl http://localhost:3000/posts/1
             """
         }
       }
