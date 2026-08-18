@@ -15,7 +15,7 @@ pipeline {
           echo'calling tool'
 
           sh"""
-          curl http://localhost:3000/posts/1
+          curl.exe -i "http://localhost:3000/db"
             """
         }
       }
